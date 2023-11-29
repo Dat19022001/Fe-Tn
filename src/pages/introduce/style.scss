@@ -1,0 +1,62 @@
+.Introduce {
+  position: relative;
+  box-sizing: border-box;
+  &__img {
+    line-height: 0;
+  }
+  &__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 42%;
+    padding: 40px;
+    &::after {
+      content: "";
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+  &__title {
+    p {
+      display: block;
+      box-sizing: border-box;
+      font-size: 30px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    span{
+      display: block;
+      font-size: 30px;
+      color: #fff;
+    }
+
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    &::after {
+      content: "";
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      width: 60px;
+      background: #fff;
+      height: 3px;
+    }
+  }
+  &__des {
+    z-index: 1;
+    position: relative;
+    span {
+      display: block;
+      color: #fff;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+  }
+}

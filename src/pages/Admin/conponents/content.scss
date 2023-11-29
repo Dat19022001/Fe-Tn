@@ -1,0 +1,24 @@
+.content1 {
+  padding-left: 10px;
+  position: relative;
+  .ant-table-pagination {
+    display: none !important;
+  }
+  &__delete {
+    &:hover {
+      color: #61c472;
+    }
+  }
+  .content1-add {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -6%;
+    top: -10%;
+    border: 1px solid #000;
+    border-radius: 8px;
+    img{
+      border-radius: 8px;
+    }
+  }
+}

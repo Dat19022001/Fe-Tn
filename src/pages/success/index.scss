@@ -1,0 +1,38 @@
+.success {
+  display: block;
+  text-align: center;
+  padding: 20px 300px;
+  img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .success-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .success-btn {
+    border-radius: 8px;
+    border: 1px solid #3bb347;
+    width: 200px;
+    display: flex;
+    padding: 10px 10px;
+    justify-content: center;
+    align-items: center;
+    color: #3bb347;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    &:hover{
+      color: #fff;
+      background: #3bb347;
+    }
+  }
+}

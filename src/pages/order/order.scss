@@ -1,0 +1,134 @@
+.order {
+  display: flex;
+  padding: 10px;
+  margin-bottom: 20px;
+  &__left {
+    width: 55%;
+    padding-right: 10px;
+  }
+  &__name {
+    color: #000;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  &__title {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &__input {
+    box-shadow: 0 0 0 1px #d9d9d9;
+    transition: all 0.2s ease-out;
+    background-color: white;
+    color: #333333;
+    border-radius: 4px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.94em 2.8em 0.94em 0.8em;
+    word-break: normal;
+    border: none;
+    margin-bottom: 10px;
+  }
+  &__tt {
+    display: flex;
+  }
+  &__email {
+    width: 60%;
+    margin-right: 10px;
+  }
+  &__sdt {
+    width: 40%;
+  }
+  &__box {
+    box-shadow: 0 0 0 1px #d9d9d9;
+    border-radius: 4px;
+    background: #fff;
+    color: #737373;
+    padding: 0px;
+  }
+  &__lc {
+    padding: 10px;
+    &:first-child {
+      border-top-left-radius: 4px;
+      border-top-right-radius: 4px;
+      border-bottom: 1px solid #d9d9d9;
+      border-top: none;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      &:hover {
+        color: #61c472;
+      }
+    }
+    input {
+      margin-right: 5px;
+    }
+  }
+  &__pt {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &__right {
+    width: 45%;
+    box-shadow: 1px 0 0 #e1e1e1 inset;
+    padding: 20px;
+  }
+  &__sp {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+    img {
+      width: 70px;
+      height: 90px;
+      border-radius: 8px;
+      background: #fff;
+      margin-right: 20px;
+    }
+  }
+  &__ct {
+    width: 40%;
+    p {
+      font-size: 18px;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    span {
+      font-size: 14px;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+  }
+  &__price {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  &__cp {
+    text-align: end;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  &__total{
+    margin-bottom: 10px;
+  }
+  &__tong{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 40px;
+  }
+  &__bt{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+}

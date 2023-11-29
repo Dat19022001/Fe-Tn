@@ -1,0 +1,25 @@
+.SidebarAdmin {
+  width: 20%;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  border-right: 1px solid #e1e1e1;
+
+  @media (max-width: 990px) {
+    width: 100%;
+    padding: 0;
+  }
+  h1 {
+    margin-bottom: 20px;
+  }
+  .admin__menu {
+    font-weight: 540;
+    padding: 12px 25px;
+    position: relative;
+    font-size: 15px;
+    display: block;
+    &:hover {
+      color: #61c472;
+      border-bottom: 1px solid #61c472;
+    }
+  }
+}
